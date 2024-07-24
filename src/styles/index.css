@@ -1,3 +1,21 @@
 /* 
     General Styles
 */
+.body{
+    background-color: black;
+}
+
+.my-carrusel{
+    display: flex;
+    overflow-y: scroll;
+    
+}
+.my-card{
+    min-width: 300px;
+    margin: 0px 5px;
+}
+
+.my-card img{
+    width:100% ;
+
+}
