@@ -1,12 +1,12 @@
 import React from "react";
 
-const Characters = () => {
+const Vehicles = ()=> {
     return (
         <div className="container">
-            <h1 className="text-danger">Characters</h1>
-            <div className="my-carrusel border border-primary">
-                <div className="my-card border border-primary">
-                    <img src="https://placehold.co/400x200" alt="place kitten" />
+            <h1 className="text-danger">Vehicles</h1>
+            <div className="my-carrusel border border-danger">
+                <div className="my-card border border-danger">
+                    <img src="https://placehold.co/400x200" alt="place kitten"/>
                     <div className="my-card-description">
                         <h2>Tierra</h2>
                         <p>Gander</p>
@@ -14,8 +14,8 @@ const Characters = () => {
                         <p>other</p>
                     </div>
                 </div>
-                <div className="my-card border border-primary">
-                    <img src="https://placehold.co/400x200" alt="place kitten" />
+                <div className="my-card border border-danger">
+                    <img src="https://placehold.co/400x200" alt="place kitten"/>
                     <div className="my-card-description">
                         <h2>Tierra</h2>
                         <p>Gander</p>
@@ -23,8 +23,8 @@ const Characters = () => {
                         <p>other</p>
                     </div>
                 </div>
-                <div className="my-card border border-primary">
-                    <img src="https://placehold.co/400x200" alt="place kitten" />
+                <div className="my-card border border-danger">
+                    <img src="https://placehold.co/400x200" alt="place kitten"/>
                     <div className="my-card-description">
                         <h2>Tierra</h2>
                         <p>Gander</p>
@@ -32,8 +32,8 @@ const Characters = () => {
                         <p>other</p>
                     </div>
                 </div>
-                <div className="my-card border border-primary">
-                    <img src="https://placehold.co/400x200" alt="place kitten" />
+                <div className="my-card border border-danger">
+                    <img src="https://placehold.co/400x200" alt="place kitten"/>
                     <div className="my-card-description">
                         <h2>Tierra</h2>
                         <p>Gander</p>
@@ -43,7 +43,7 @@ const Characters = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Characters;
+export default Vehicles
